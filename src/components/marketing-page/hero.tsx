@@ -2,12 +2,9 @@
 
 import { Button } from "@/src/ui/button";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const HeroSection = () => {
-  const handleTryNowClick = () => {
-    // Action on click
-  };
-
   return (
     <section
       className="h-screen flex items-center justify-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
@@ -50,11 +47,13 @@ const HeroSection = () => {
           SyneX AI
         </h1>
         <p className="text-lg md:text-xl text-white/70 mt-4 max-w-2xl mx-auto">
-          Your AI Agent to interact<br className="hidden sm:block" /> with the Blockchain.  
+          Your AI Agent to interact<br className="hidden sm:block" /> with the Blockchain.
         </p>
         <div className="mt-8">
-          <Button onClick={handleTryNowClick} >
-            Start Now
+          <Button>
+            <Link href={"https://3nuhd-iqaaa-aaaai-q3yra-cai.icp0.io/"} target="_blank" rel="oopener noreferrer">
+              Start Now
+            </Link>
           </Button>
         </div>
       </div>

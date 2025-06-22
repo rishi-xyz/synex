@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Synex AI 
+=============
 
-## Getting Started
+**Next-Generation AI Agent for Blockchain Interaction**
 
-First, run the development server:
+Synex AI is an intelligent blockchain interaction agent that bridges the gap between artificial intelligence and decentralized technologies. Built with modern web technologies and powered by advanced AI capabilities, Synex AI enables seamless interaction with multiple blockchain networks through an intuitive conversational interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌟 Features
+-----------
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*   **Multi-Chain Support**: Interact with various blockchain networks through a unified interface
+    
+*   **AI-Powered Conversations**: Natural language processing for blockchain operations
+    
+*   **Modern Web Interface**: Built with Next.js for optimal performance and user experience
+    
+*   **Real-time Blockchain Data**: Live updates and transaction monitoring
+    
+*   **Secure Interactions**: Enterprise-grade security for blockchain operations
+    
+*   **User-Friendly Design**: Intuitive interface suitable for both beginners and experts
+    
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚀 Quick Start
+--------------
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+*   Node.js 18+
+    
+*   pnpm 
+    
+*   Git
+    
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  git clone https://github.com/rishi-xyz/synex.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2.  cd synex
+  
+3.  pnpm install
+    
+4.  pnpm run dev
+    
+5.  **Open your browser**Navigate to http://localhost:3000
+    
 
-## Deploy on Vercel
+### Development Guidelines
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*   Follow TypeScript best practices
+    
+*   Use conventional commit messages
+    
+*   Add tests for new features
+    
+*   Update documentation as needed
+    
+*   Ensure code passes all linting checks
+    
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+🔗 Related Projects
+-------------------
+
+*   [Synex-ICP](https://github.com/rishi-xyz/synex-icp) - ICP Canister backend with Rust implementation
+    
+
+🙏 Acknowledgments
+------------------
+
+*   Internet Computer Protocol (ICP) team for blockchain infrastructure
+    
+*   Ollama team for LLM integration capabilities
+    
+*   The open-source community for various tools and libraries
+    
+
+
+🔮 Roadmap
+----------
+
+*   \[ \] Enhanced multi-chain support
+    
+*   \[ \] Advanced AI conversation capabilities
+    
+*   \[ \] Mobile application
+    
+*   \[ \] Plugin ecosystem
+    
+*   \[ \] Enterprise features
+    
+
+**Built with ❤️ by the Synex AI Team**

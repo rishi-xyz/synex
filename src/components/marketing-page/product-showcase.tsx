@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Product from "@/assets/image.png"
+import Image from "next/image";
 
 const ProductShowcase = () => {
   const ProductImage = useRef<HTMLImageElement>(null);
@@ -13,7 +15,7 @@ const ProductShowcase = () => {
   const opacity = useTransform(scrollYProgress, [0, 1], [0.4, 1]);
 
   return (
-    <section className="bg-gradient-to-b from-black via-black to-fuchsia-950 py-[72px] px-4">
+    <section className="bg-gradient-to-b from-black via-black to-fuchsia-950 py-[72px] px-4 hidden md:block">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-center text-4xl md:text-5xl font-semibold tracking-tight bg-gradient-to-br from-fuchsia-500 via-white to-fuchsia-700 bg-clip-text text-transparent mb-6">
           Solutions in Action
@@ -30,13 +32,15 @@ const ProductShowcase = () => {
           }}
           className="mt-14"
         >
-          {/* <Image
-            src={ProductScreen}
+          <Image
+            src={Product}
             alt="Product Dashboard Screenshot"
-            className="rounded-2xl mx-auto shadow-lg border border-fuchsia-500"
+            className="rounded-2xl mx-auto shadow-lg border-4 border-fuchsia-500"
             ref={ProductImage}
+            width={1000}
+            height={1000}
             placeholder="blur"
-          /> */}
+          />
         </motion.div>
       </div>
     </section>
